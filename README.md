@@ -61,19 +61,34 @@ The initial row of balls on the board will not have any groups of three or more 
 <br>
 APPROACH
 <br>
+
+<br>
 USE BFS
+
+
 <br>
 (1) Breadth-First Search (BFS): Use a BFS to explore all possible states (board configurations) level by level, ensuring that the first time an empty board is found, it's with the minimum number of steps.
+
+<br>
 
 <br>
 (2) State Representation: Each state is represented by the current board and the remaining hand, combined into a single string to track visited states.
 
 <br>
+<br>
+
+
 (3) State Reduction: After each insertion, remove any consecutive balls of three or more using a helper function (e.g., removeConsecutiveTriplets) to reduce the board.
 
+
 <br>
+<br>
+
+
 (4)Pruning: Use a set to track visited states to avoid redundant computations and improve efficiency.
 <br>
+
+
 (5)Early Termination: If an empty board is found, return the number of steps taken to reach it.
 <br>
 
