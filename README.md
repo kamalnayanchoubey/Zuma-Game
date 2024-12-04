@@ -84,6 +84,4 @@ USE BFS
      
       Space complexity:
 
-      <br>
-
       O(B×2H)
