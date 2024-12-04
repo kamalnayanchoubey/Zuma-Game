@@ -89,6 +89,8 @@ USE BFS
 <br>
 
 
+<br>
+
 (5)Early Termination: If an empty board is found, return the number of steps taken to reach it.
 <br>
 
